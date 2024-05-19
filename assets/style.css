@@ -584,6 +584,12 @@ body {
     background: var(--Primary, #1D2130);
     color: var(--White, #FFF);
     text-align: center;
+    cursor: pointer;
+}
+
+.business-btn:hover{
+    color: #FFF;
+    background-color: #888;
 }
 
 .footer-btn-h6 {
@@ -713,4 +719,6 @@ body {
     height: 20px;
     flex-shrink: 0;
     opacity: 0.5;
+    cursor: pointer;
 }
+
