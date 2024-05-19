@@ -75,31 +75,50 @@ body {
     line-height: 150%;
 }
 
-.content #banner-section{
+#banner-section{
     display: flex;
     padding: 40px 208px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
     align-self: stretch;
-    background: #FFF;
-    margin-bottom: 80px;
 }
 
-
-#banner-section .header{
-    width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+#banner-section .header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 45px;
-    box-shadow: none;
-    background: url(./img/background/content-1.png) center -180px /100% 100% no-repeat;
+    align-self: stretch;
+    background: #FFF;
 }
 
-#banner-section .header h1{
+#banner-section .header-content .image-1{
+    width: 896px;
+    height: 757px;
+    position: absolute;
+    background: url(./img/background/content-1.png);
+}
+
+#banner-section .header-content .content-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.content-banner .frame-1{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.content-banner .frame-1 h1{
+    width: 768px;
     color: var(--Primary, #1D2130);
     text-align: center;
     font-family: Roboto;
@@ -109,7 +128,8 @@ body {
     line-height: 110%;
 }
 
-#banner-section .header p{
+.content-banner .frame-1 p{
+    width: 768px;
     color: var(--Primary, #1D2130);
     text-align: center;
     font-family: Roboto;
@@ -119,46 +139,48 @@ body {
     line-height: 150%;
 }
 
-#banner-section .header .input-email{
+#banner-section .header-content .form-header{
     display: flex;
     position: relative;
-}
-
-.header .input-email input{
-    
-    width: 100%;
-    height: 56px;
-    flex-shrink: 0;
-    display:inline-flex;
+    padding: 8px 8px 8px 21px;
+    justify-content: center;
+    align-items: center;
+    gap: 253px;
     border-radius: 20px;
     border: 1px solid #CACACA;
     background: var(--White, #FFF);
-    padding: 8px 8px 8px 21px;
+}
+
+#banner-section .form-header input{
+    color: var(--Primary, #1D2130);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 4000;
+    font-weight: 400;
     line-height: 150%;
-    opacity: 0.8;
+    text-transform: capitalize;
+    opacity: 0.4;
 }
 
-#banner-section .input-email .btn{
-    
-    position: relative;
-    padding: 30px;
-    align-items: flex-start;
+#banner-section .form-header .btn{
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     border-radius: 12px;
-    color:#FFF;
     background: var(--Primary, #1D2130);
-    cursor: pointer;
-    margin-left: -50px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
 
-#banner-section>.header>img{
-    height: 666.566px;
-    border-radius: 14px solid var(--Light-Violet, #E0E4FC);
-
+#banner-section .header-content img{
+    position: relative;
 }
 
 .brk-color-features-list-1 {
@@ -168,10 +190,11 @@ body {
 
 #frame{
     display: flex;
+    margin-bottom: 80px;
     gap: 10px;
     width: 100%;
     height: 563px;
-    background: url(./img/background/frame.png) lightgray 50% / cover no-repeat;
+    background: url(./img/background/frame.png) 50% / cover no-repeat;
 }
 
 #frame .frame-content{
