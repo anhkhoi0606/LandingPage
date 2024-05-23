@@ -256,7 +256,7 @@ body {
 
 .content-logos {
     display: flex;
-    padding: 40px 80px;
+    /* padding: 40px 80px; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -264,12 +264,14 @@ body {
     gap: 40px;
     align-self: stretch;
     margin-bottom: 80px;
+  
 }
 
 .logos {
     display: flex;
     align-items: flex-start;
-    gap: 100px;
+    gap: 100px; 
+    flex-wrap: wrap ;
 }
 
 .logos img {
@@ -789,3 +791,5 @@ body {
     flex-shrink: 0;
     opacity: 0.5;
 }
+
+

@@ -10,7 +10,11 @@
 
 /* Tablet */
 @media (min-width: 46.25em) and  (max-width: 63.9375em) {
-    
+    /* .content-logos {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    } */
 }
 
 /* Mobile */
