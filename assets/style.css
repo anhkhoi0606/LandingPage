@@ -1,11 +1,8 @@
 
-  body {
+body {
     font-family: 'Roboto', sans-serif;
-  }
+}
   
-
-  
-
 #main{
     display: flex;
     width: 100%;
@@ -667,7 +664,7 @@ body {
 }
 
 .footer-business .business-btn {
-    display: flex;
+    display:inline-flex;
     padding: 16px 40px;
     justify-content: center;
     align-items: center;
@@ -731,7 +728,7 @@ body {
 }
 
 .text-btn {
-    display: ;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -757,7 +754,7 @@ body {
 }   
 
 .footer-btn {
-    display: inline-flex;
+    display: flex;
     padding: 28px 40px;
     align-items: flex-start;
     gap: 10px;
