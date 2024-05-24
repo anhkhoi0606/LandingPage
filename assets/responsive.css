@@ -15,7 +15,6 @@
 
     .discover-content-p {
         width: 100% !important;
-
     }
    
     .footer-bottom .footer-line {
@@ -24,6 +23,11 @@
 
     .footer-business  h1 {
         width: 100% !important;
+    }
+
+    .footer-btn {
+        margin-left: 20% !important;
+        
     }
 
     .footer-bottom .footer-line {
