@@ -1,20 +1,39 @@
 /* PC */
 @media (min-width: 64em) {
-
+    
 }
 
 /* Tablet and Mobile */
 @media (max-width: 63.9375em) {
+    .content-test {
+        width: 100% !important;
+    }
 
+    .discove-content-h2 {
+        width: 100% !important;
+    }
+
+    .discover-content-p {
+        width: 100% !important;
+
+    }
+   
+    .footer-bottom .footer-line {
+        width: 100% !important;
+    }
+
+    .footer-business  h1 {
+        width: 100% !important;
+    }
+
+    .footer-bottom .footer-line {
+        display: none;
+    }
 }
 
 /* Tablet */
 @media (min-width: 46.25em) and  (max-width: 63.9375em) {
-    /* .content-logos {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    } */
+
 }
 
 /* Mobile */

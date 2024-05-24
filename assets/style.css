@@ -257,9 +257,9 @@ body {
 .content-logos {
     display: flex;
     /* padding: 40px 80px; */
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     align-items: center;
     gap: 40px;
     align-self: stretch;
@@ -269,7 +269,8 @@ body {
 
 .logos {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    justify-content: space-around;
     gap: 100px; 
     flex-wrap: wrap ;
 }
@@ -289,13 +290,16 @@ body {
     align-self: stretch;
     background: #FFF;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+
 }
 
 .discover {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .discover-content {
@@ -303,6 +307,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
+    flex-wrap: wrap;
+
 }
 
 .discover-content-h4 {
@@ -331,6 +337,7 @@ body {
     font-weight: 700;
     line-height: 120%; /* 57.6px */
     margin: 0;
+    
 
 }
 
@@ -349,12 +356,16 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    flex-wrap: wrap;
+
 }
 
 .discover-items {
     display: flex;
     align-items: flex-start;
     gap: 32px;
+    flex-wrap: wrap;
+
 }
 
 .discover-items img {
@@ -425,10 +436,12 @@ body {
 .features-list {
     display: flex;
     padding: 64px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-self: stretch;
     border-radius: 24px;
+    flex-wrap: wrap;
+
 }
 
 .brk-color-features-list-2 {
@@ -480,7 +493,6 @@ body {
     background: #FFF;
     width: 100%;
     align-items: center;
-   
 }
 
 .testimonials {
@@ -492,10 +504,13 @@ body {
 
 .frame-product {
     display: flex;
+    justify-content: space-around;
     align-items: flex-start;
     gap: 24px;
     margin-left: 400px;
     margin: auto;
+    flex-wrap: wrap;
+
 }
 
 .item-product {
@@ -571,6 +586,8 @@ body {
     gap: 80px;
     align-self: stretch;
     background: #FFF;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .footer {
@@ -679,6 +696,8 @@ body {
     display: flex;
     align-items: flex-start;
     gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .footer-content {
@@ -693,6 +712,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 27px;
+    flex-wrap: wrap;
 }
 
 .footer-sub img {
@@ -711,7 +731,8 @@ body {
 }
 
 .text-btn {
-    display: flex;
+    display: ;
+    flex-wrap: wrap;
 }
 
 .form-control { 
@@ -744,7 +765,7 @@ body {
     background: var(--White, #FFF);
     position: relative;
     top: 0px;
-    left: 250px;
+    left: 230px;
 }
 
 .footer-btn:hover{
@@ -765,7 +786,8 @@ body {
     display: flex;
     align-items: center;
     gap: 32px;
-   
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 
 .footer-bottom .footer-line{
