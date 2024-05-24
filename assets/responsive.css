@@ -33,7 +33,22 @@
 
 /* Tablet */
 @media (min-width: 46.25em) and  (max-width: 63.9375em) {
+    #banner-section .header-content img {
+        width: 800px;
+    }
 
+    #frame{
+        height: 1000px;
+    }
+
+    #frame .frame-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .frame-content .frame-content-text .btn{
+        align-self: stretch;
+     }
 }
 
 /* Mobile */
