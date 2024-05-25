@@ -777,7 +777,7 @@ body {
     background: var(--White, #FFF);
     position: relative;
     top: 0px;
-    left: 230px;
+    left: 200px;
 }
 
 .footer-btn:hover{
@@ -807,6 +807,7 @@ body {
     height: 1px;
     background: #888;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-bottom p {

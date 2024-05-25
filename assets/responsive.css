@@ -1,10 +1,10 @@
 /* PC */
-@media (min-width: 64em) {
+@media (min-width: 73.8125em) {
     
 }
 
 /* Tablet and Mobile */
-@media (max-width: 63.9375em) {
+@media (max-width: 73.75em) {
     .content-test {
         width: 100% !important;
     }
@@ -26,6 +26,7 @@
     }
 
     .footer-btn {
+        padding: 28px 28px !important;
         margin-left: 20% !important;
         
     }
