@@ -25,9 +25,14 @@
         width: 100% !important;
     }
 
+    .form-control {
+       padding-right: 20px;
+    }
+
     .footer-btn {
         padding: 28px 28px !important;
-        margin-left: 20% !important;
+        margin-left: 0px !important;
+        margin-right: 150px;
         
     }
 
@@ -58,5 +63,5 @@
 
 /* Mobile */
 @media (max-width: 46.1875em) {
-
+    
 }
