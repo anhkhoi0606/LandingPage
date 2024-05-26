@@ -63,5 +63,65 @@
 
 /* Mobile */
 @media (max-width: 46.1875em) {
-    
+    .content-big-sales-today {
+        padding: 0% !important;
+    }
+
+    .discover-content {
+        margin-bottom: 4% !important;
+    }
+
+    .discover-frame-p {
+        width: 90% !important;
+    }
+
+    .content-features {
+        padding: 0% !important;
+    }
+
+    .features-list {
+        padding: 0% !important;
+    }
+
+    .features-items {
+        margin-bottom: 20% !important;
+    }
+
+    .item-product {
+        padding: 10% !important;
+    }
+
+    .footer {
+        margin-top: 14% !important;
+        margin-left: -2%;
+    }
+
+    .footer-col {
+        text-align: center !important;
+    }
+
+    .footer-h3 {
+        width: 100% !important;
+    }
+
+    .footer-sub {
+        align-items: center !important;
+    }
+
+    .form-control {
+
+        margin-left: -2% !important;
+        width: 44% !important;
+    }
+
+    .footer-btn {
+        padding: 10% 38% !important;
+        margin-top: 40% !important;
+        left: -3% !important;
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        width: 100%;
+    }
 }

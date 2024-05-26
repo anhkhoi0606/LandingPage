@@ -292,6 +292,7 @@ body {
 }
 
 .content-big-sales-today {
+    width: 100%;
     display: flex;
     padding: 40px 80px;
     flex-direction: column;
@@ -306,6 +307,7 @@ body {
 }
 
 .discover {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
