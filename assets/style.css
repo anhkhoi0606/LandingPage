@@ -18,8 +18,7 @@ body {
     align-items: center;
 }
 
-.header{
-    /* width: 100%; */
+#header{
     background: #FFF;
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.08);
     padding: 30px 80px;
@@ -27,7 +26,7 @@ body {
     align-self: stretch;
 }
 
-.header .frame-header{
+#header .frame-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,10 +34,10 @@ body {
     flex-wrap: wrap;
 }
 
-.header #logo img{
+#header #logo img{
     width: 140px;
     height: 28.354px;
-
+    padding: 10px;
 }
 
 #nav {
@@ -88,7 +87,6 @@ body {
 
 #banner-section{
     display: flex;
-    padding: 40px 208px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
@@ -105,8 +103,8 @@ body {
 }
 
 #banner-section .header-content .image-1{
-    width: 896px;
-    height: 757px;
+    width: 65%;
+    height: 78%;
     position: absolute;
     background: url(./img/background/content-1.png);
 }
@@ -117,6 +115,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 48px;
+    width: 100%;
+    padding: 40px 0;
 }
 
 .content-banner .frame-1{
@@ -129,7 +129,7 @@ body {
 }
 
 .content-banner .frame-1 h1{
-    width: 768px;
+    width: 65%;
     color: var(--Primary, #1D2130);
     text-align: center;
     font-family: Roboto;
@@ -140,7 +140,6 @@ body {
 }
 
 .content-banner .frame-1 p{
-    width: 768px;
     color: var(--Primary, #1D2130);
     text-align: center;
     font-family: Roboto;
@@ -154,12 +153,12 @@ body {
     display: flex;
     position: relative;
     padding: 8px 8px 8px 21px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 253px;
     border-radius: 20px;
     border: 1px solid #CACACA;
     background: var(--White, #FFF);
+    width: 44%;
 }
 
 #banner-section .form-header input{
@@ -170,7 +169,8 @@ body {
     font-weight: 400;
     line-height: 150%;
     text-transform: capitalize;
-    opacity: 0.4;
+    opacity: 0;
+    width: 60%
 }
 
 #banner-section .form-header .btn{
@@ -187,10 +187,10 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
 }
 
 #banner-section .header-content img{
+    width: 80%;
     position: relative;
 }
 
@@ -204,27 +204,28 @@ body {
     margin-bottom: 80px;
     gap: 10px;
     width: 100%;
-    height: 563px;
     background: url(./img/background/frame.png) 50% / cover no-repeat;
 }
 
 #frame .frame-content{
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     gap: 88px;
     margin: auto;
+    padding: 40px 0;
+    justify-content: center;
 }
 
 .frame-content .frame-content-text{
     display: flex;
+    width: 40%;
     flex-direction: column;
     align-items: flex-start;
     gap: 28px;
 }
 
 .frame-content .frame-content-text .frame-content-text-h2{
-    width: 576px;
+    width: 80%;
     color: var(--Primary, #1D2130);
     font-family: Roboto;
     font-size: 48px;
@@ -234,7 +235,7 @@ body {
     }
 
 .frame-content .frame-content-text .frame-content-text-p{
-    width: 576px;
+    width: 65%;
     color: var(--Primary, #1D2130);
     font-family: Roboto;
     font-size: 16px;
@@ -261,8 +262,8 @@ body {
  }
 
  #frame .frame-content img{
-    width: 576px;
-    height: 435px;
+    width: 40%;
+    padding-left: 1.5%;
  }
 
 .content-logos {

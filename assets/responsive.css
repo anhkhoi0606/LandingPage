@@ -1,10 +1,45 @@
 /* PC */
-@media (min-width: 73.8125em) {
-    
+@media (min-width: 1024px) {
+    #header .mobile-menu-btn{
+    display: none;
+    }
 }
 
 /* Tablet and Mobile */
 @media (max-width: 73.75em) {
+    #header {
+        padding: 0;
+    }
+
+    #banner-section .header-content img {
+        width: 95%;
+    }
+
+    #frame .frame-content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .frame-content .frame-content-text{
+        width: 85%;
+        text-align: center;
+    }
+
+    .frame-content .frame-content-text .frame-content-text-h2,
+    .frame-content .frame-content-text .frame-content-text-p{
+        width: 100%;
+     }
+
+    .frame-content .frame-content-text .btn{
+        align-self: stretch;
+     }
+
+     #frame .frame-content img{
+        width: 90%;
+    
+     }
+
+
     .content-test {
         width: 100% !important;
     }
@@ -43,26 +78,84 @@
 
 /* Tablet */
 @media (min-width: 46.25em) and  (max-width: 63.9375em) {
-    #banner-section .header-content img {
-        width: 800px;
+    #header .mobile-menu-btn{
+        display: none;
     }
 
-    #frame{
-        height: 1000px;
-    }
-
-    #frame .frame-content{
+    #header .frame-header {
         flex-direction: column;
-        gap: 30px;
     }
 
-    .frame-content .frame-content-text .btn{
-        align-self: stretch;
-     }
-}
+    #header #logo img {
+        padding: 20px 0 0 0;
+    }
 
+    #banner-section .header-content .image-1 {
+        width: 100%;
+        height: 61%;
+    }
+
+    .content-banner .frame-1 h1 {
+        width: 100%;
+    }
+
+    #banner-section .header-content .form-header {
+        width: 83%;
+    }
+
+
+}
 /* Mobile */
 @media (max-width: 46.1875em) {
+    #header {
+        height: 0;
+    }
+
+    #header .frame-header,
+    #nav ul{
+        display: block;
+        padding: 10px;
+    }
+
+    #header .frame-header #logo{
+       text-align: center;
+    }
+
+    #nav li .btn {
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn{
+        text-align: center;
+    }
+
+    #Sheader .menu-icon{
+        color: black;
+        font-size: 20px;
+    }
+
+    #banner-section .header-content .image-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-banner .frame-1 h1{
+        width: 100%;
+    }
+    
+    .content-banner .frame-1 p{
+        width: 100%;
+    }
+
+    #banner-section .form-header .btn {
+        padding: 5px 20px;
+        width: 38%;
+    }
+
+    #banner-section .header-content .form-header {
+        width: 91%;
+    }
+
     .content-big-sales-today {
         padding: 0% !important;
     }

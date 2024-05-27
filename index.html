@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,10 +16,14 @@
 <body>
     <div id="main">
 
-        <div class="header">
+        <div id="header">
             <div class="frame-header">
                 <div id="logo">
                     <img src="assets/img/logo/Logo1.svg" alt="">
+                </div>
+
+                <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class="menu-icon ti-line-double"></i>
                 </div>
                 
                 <div id="nav">
@@ -286,5 +291,19 @@
     
     
     </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu')
+
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === 0;
+            if (isClosed) {
+                header.style.height = 'auto'
+            } else{
+                header.style.height = '0px'
+            }
+        }
+    </script>
 </body>
 </html>
